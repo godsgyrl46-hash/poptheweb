@@ -1175,7 +1175,7 @@ button:focus-visible {
 .footer-logo {
     width: 170px;
     margin-bottom: 1.25rem;
-    invert(1);
+    invert: (1);
 }
 
 .footer-brand p {
@@ -2873,10 +2873,10 @@ button:focus-visible {
     *,
     *::before,
     *::after {
-        scroll-behavior: auto !important;
-        transition-duration: 0.01ms !important;
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
+        scroll-behavior: auto;
+        transition-duration: 0.01ms;
+        animation-duration: 0.01ms;
+        animation-iteration-count: 1;
     }
 }
 
