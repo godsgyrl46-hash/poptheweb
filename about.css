@@ -2879,3 +2879,499 @@ button:focus-visible {
         animation-iteration-count: 1 !important;
     }
 }
+
+/* ==================================================
+   ABOUT PAGE
+================================================== */
+
+/* About Hero */
+
+.about-hero {
+    padding: 7rem 0;
+    background: #111111;
+    color: #ffffff;
+}
+
+.about-hero-content {
+    max-width: 850px;
+    text-align: center;
+}
+
+.about-hero .section-label {
+    color: #ff5a00;
+}
+
+.about-hero h1 {
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    font-size: clamp(2.5rem, 6vw, 4.8rem);
+    line-height: 1.05;
+}
+
+.about-hero-text {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #d5d5d5;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-hero .hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+/* Shared About Page Spacing */
+
+.section-padding {
+    padding: 6rem 0;
+}
+
+.centered-heading {
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.centered-heading p:last-child {
+    max-width: 620px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* About Story */
+
+.about-story {
+    background: #ffffff;
+}
+
+.about-story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+}
+
+.about-story-image {
+    overflow: hidden;
+    min-height: 500px;
+    border-radius: 1rem;
+    background: #eeeeee;
+}
+
+.about-story-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    object-fit: cover;
+}
+
+.about-story-content h2 {
+    margin-bottom: 1.5rem;
+}
+
+.about-story-content p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: #555555;
+}
+
+.about-story-content p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Mission and Vision */
+
+.mission-vision {
+    background: #f5f5f5;
+}
+
+.mission-vision-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.purpose-card {
+    padding: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 1rem;
+    background: #ffffff;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.purpose-card:hover {
+    transform: translateY(-6px);
+    border-color: #ff5a00;
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.1);
+}
+
+.purpose-card h3 {
+    margin: 1.25rem 0 1rem;
+}
+
+.purpose-card p {
+    margin: 0;
+    color: #555555;
+    line-height: 1.7;
+}
+
+
+/* Core Values */
+
+.core-values {
+    background: #ffffff;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.value-card {
+    padding: 2.25rem;
+    border: 1px solid #dddddd;
+    border-radius: 1rem;
+    background: #ffffff;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-6px);
+    border-color: #ff5a00;
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.1);
+}
+
+.value-card h3 {
+    margin: 1.25rem 0 1rem;
+}
+
+.value-card p {
+    margin: 0;
+    color: #555555;
+    line-height: 1.7;
+}
+
+.card-number {
+    display: inline-block;
+    color: #ff5a00;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+}
+
+
+/* Why Choose PopTheWeb */
+
+.why-choose-about {
+    background: #111111;
+    color: #ffffff;
+}
+
+.why-choose-about-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: 5rem;
+}
+
+.why-choose-about .section-label {
+    color: #ff5a00;
+}
+
+.why-choose-about-content h2 {
+    margin-bottom: 1.5rem;
+}
+
+.why-choose-about-content p {
+    margin-bottom: 1.5rem;
+    color: #d5d5d5;
+    line-height: 1.8;
+}
+
+.why-choose-about .text-link {
+    color: #ffffff;
+}
+
+.why-choose-about .text-link:hover {
+    color: #ff5a00;
+}
+
+.about-benefits {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.about-benefit {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    border: 1px solid #333333;
+    border-radius: 0.8rem;
+    background: #1b1b1b;
+}
+
+.benefit-check {
+    display: grid;
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    place-items: center;
+    border-radius: 50%;
+    background: #ff5a00;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.about-benefit h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.05rem;
+}
+
+.about-benefit p {
+    margin: 0;
+    color: #cfcfcf;
+    line-height: 1.6;
+}
+
+
+/* Meet the Designer */
+
+.meet-designer {
+    background: #f5f5f5;
+}
+
+.meet-designer-grid {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    align-items: center;
+    gap: 4rem;
+}
+
+.designer-image {
+    overflow: hidden;
+    min-height: 520px;
+    border-radius: 1rem;
+    background: #dddddd;
+}
+
+.designer-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 520px;
+    object-fit: cover;
+}
+
+.designer-content h2 {
+    margin-bottom: 1.5rem;
+}
+
+.designer-content p {
+    margin-bottom: 1rem;
+    color: #555555;
+    line-height: 1.8;
+}
+
+.designer-content .button {
+    margin-top: 1rem;
+}
+
+
+/* Final Call to Action */
+
+.final-cta {
+    padding: 6rem 0;
+    background: #ff5a00;
+    color: #ffffff;
+}
+
+.final-cta-content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.final-cta .section-label {
+    color: #ffffff;
+}
+
+.final-cta h2 {
+    max-width: 700px;
+    margin: 0 auto 1.25rem;
+}
+
+.final-cta p {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.final-cta .cta-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.final-cta .button-primary {
+    background: #111111;
+    color: #ffffff;
+    border-color: #111111;
+}
+
+.final-cta .button-primary:hover {
+    background: #ffffff;
+    color: #111111;
+    border-color: #ffffff;
+}
+
+.final-cta .button-secondary {
+    background: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.final-cta .button-secondary:hover {
+    background: #ffffff;
+    color: #111111;
+}
+
+
+/* ==================================================
+   ABOUT PAGE TABLET
+================================================== */
+
+@media (max-width: 900px) {
+
+    .about-story-grid,
+    .why-choose-about-grid,
+    .meet-designer-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .about-story-image,
+    .about-story-image img {
+        min-height: 420px;
+    }
+
+    .mission-vision-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .value-card:last-child {
+        grid-column: 1 / -1;
+        width: calc(50% - 0.75rem);
+        justify-self: center;
+    }
+
+    .designer-image,
+    .designer-image img {
+        min-height: 450px;
+    }
+}
+
+
+/* ==================================================
+   ABOUT PAGE MOBILE
+================================================== */
+
+@media (max-width: 650px) {
+
+    .about-hero {
+        padding: 5rem 0;
+    }
+
+    .section-padding {
+        padding: 4rem 0;
+    }
+
+    .about-hero .hero-buttons,
+    .final-cta .cta-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .about-hero .button,
+    .final-cta .button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-story-grid,
+    .why-choose-about-grid,
+    .meet-designer-grid {
+        gap: 2rem;
+    }
+
+    .about-story-image,
+    .about-story-image img,
+    .designer-image,
+    .designer-image img {
+        min-height: 350px;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .value-card:last-child {
+        grid-column: auto;
+        width: 100%;
+    }
+
+    .purpose-card,
+    .value-card {
+        padding: 1.75rem;
+    }
+
+    .about-benefit {
+        padding: 1.25rem;
+    }
+
+    .final-cta {
+        padding: 4.5rem 0;
+    }
+}
+
+
+/* ==================================================
+   REDUCED MOTION ACCESSIBILITY
+================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .purpose-card,
+    .value-card {
+        transition: none;
+    }
+
+    .purpose-card:hover,
+    .value-card:hover {
+        transform: none;
+    }
+}
+
+.mobile-navigation {
+    display: none;
+}
